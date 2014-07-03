@@ -1,5 +1,17 @@
-//Solution to problem 3
+
 //http://projecteuler.net/problem=3
+//Solution to problem 1
+
+var sum=0;
+for(var i=1; i<1000; i++){
+    if (i%3===0 || i%5===0){
+        sum+=i;
+    }
+}
+console.log(sum);
+
+
+//Solution to problem 3
 
 function greatestFactor(num){
 	var num2=num-1;
